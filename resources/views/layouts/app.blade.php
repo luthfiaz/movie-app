@@ -16,7 +16,7 @@
         <script src="{{ asset('plugins/bootstrap/dist/js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('plugins/jquery/jquery-3.4.1.min.js') }}"></script>
         <script src="{{ asset('plugins/DataTables/datatables.min.js') }}"></script>
-        <script src="{{ asset('plugins/DataTables/DataTables-1.10.20/js/jquery.dataTables.min.js') }}"></script>
+        <!-- <script src="{{ asset('plugins/DataTables/DataTables-1.10.20/js/jquery.dataTables.min.js') }}"></script> -->
         
     </head>
     <body>

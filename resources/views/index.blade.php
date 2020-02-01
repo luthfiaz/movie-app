@@ -3,7 +3,8 @@
 @section('content')
 <div class="container-fluid">
     <br>
-    <a href="{{url('/create')}}" class="btn btn-info" >Create</a>
+    <a href="{{url('/create')}}" class="btn btn-primary" >Create Movie</a>
+    <a href="{{url('/production/create')}}" class="btn btn-info" >Add Production House</a>
     <br>
     <table id="example" class="display" style="width:100%">
         <thead>

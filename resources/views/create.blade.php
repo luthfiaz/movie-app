@@ -17,7 +17,7 @@
 
             <div class="form-group">
                 <label>Production House</label>
-                <select class="form-control" name="prod">
+                <select class="form-control" name="prod" id="prod">
                     <option selected disabled>Please select one</option>
                     @foreach($options as $opt)
                         <option value="{{$opt->id}}"> {{$opt->name}} </option>
@@ -30,4 +30,18 @@
         </div>
     </form>
 </div>
+@endsection
+
+@section('script')
+<script>
+// $(document).on('click', '#save', function() {
+//     let prod = $('#prod').val();
+//     alert('xxx');
+//     if ( $('#prod').val() === undefined )
+//     {
+//         alert('yyy')
+//         return;
+//     }
+// })
+</script>
 @endsection

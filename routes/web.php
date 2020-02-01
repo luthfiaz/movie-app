@@ -14,3 +14,6 @@
 Route::get('/', 'MovieController@index');
 Route::get('/create', 'MovieController@create');
 Route::post('/add', 'MovieController@add');
+
+Route::get('/production/create', 'ProductionController@create');
+Route::post('/production/add', 'ProductionController@add');
